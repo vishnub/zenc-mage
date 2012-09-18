@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>    
+    <modules>
+        <MagentoTest_Test>
+            <version>0.1.0</version>
+        </MagentoTest_Test>
+    </modules>
+    <frontend>
+        <routers>
+            <test>
+                <use>standard</use>
+                <args>
+                    <module>MagentoTest_Test</module>
+                    <frontName>test</frontName>
+                </args>
+            </test>
+        </routers>  
+    </frontend>
+</config>  
