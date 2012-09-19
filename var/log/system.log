@@ -1,0 +1,4 @@
+2012-09-17T20:20:36+00:00 ERR (3): Notice: Trying to get property of non-object  in /mnt/webroot/magento.development.local/app/code/core/Mage/Core/Model/Config.php on line 1227
+2012-09-17T20:20:36+00:00 ERR (3): Notice: Trying to get property of non-object  in /mnt/webroot/magento.development.local/app/code/core/Mage/Core/Model/Config.php on line 1227
+2012-09-17T20:20:36+00:00 ERR (3): Notice: Trying to get property of non-object  in /mnt/webroot/magento.development.local/app/code/core/Mage/Core/Model/Config.php on line 1227
+2012-09-17T20:20:36+00:00 ERR (3): Notice: Trying to get property of non-object  in /mnt/webroot/magento.development.local/app/code/core/Mage/Core/Model/Config.php on line 1239

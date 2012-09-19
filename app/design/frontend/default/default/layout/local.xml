@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	
+    <default>
+        <reference name="right">
+            <action method="unsetChild"><alias>right.poll</alias></action>
+        </reference>
+		<reference name="left">
+            <action method="insert"><blockName>right.poll</blockName></action>
+		</reference>
+	</default>
+
+	<test_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>test/index.phtml</template>
+            </action>
+        </reference>
+	</test_index_index>
+
+</layout>
