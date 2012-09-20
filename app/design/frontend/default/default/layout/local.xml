@@ -10,12 +10,4 @@
 		</reference>
 	</default>
 
-	<test_index_index>
-        <reference name="root">
-            <action method="setTemplate">
-                <template>test/index.phtml</template>
-            </action>
-        </reference>
-	</test_index_index>
-
 </layout>

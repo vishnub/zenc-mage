@@ -15,5 +15,19 @@
                 </args>
             </test>
         </routers>  
+		<layout>
+			<updates>
+				<test>
+					<file>test/index.xml</file>
+				</test>
+			</updates>
+		</layout>
     </frontend>
+	<global>
+        <blocks>
+            <test>
+                <class>MagentoTest_Test_Block</class>
+            </test>
+        </blocks>
+	</global>
 </config>  

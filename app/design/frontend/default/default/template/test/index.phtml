@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='http://fonts.googleapis.com/css?family=Dosis:800|Petit+Formal+Script' rel='stylesheet' type='text/css'></link>
+	<style type="text/css">
+		body {
+			background: #fefefe;
+		}
+		.content {
+			width: 600px;
+			margin: 50px auto;
+		}
+		.text {
+			font-family: 'Petit Formal Script', cursive;
+			font-size: 24pt;
+			color: #999;
+		}
+		.time {
+			font-family: 'Dosis', sans-serif;
+			font-size: 45pt;
+		}
+	</style>
 </head>
 <body>
-	<?php print $this->__('Today is a happy day'); ?>
+	<div class="content">
+		<span class="text"><?php print $this->__('Today is a happy day.'); ?></span>
+		<span class="time"><?php print $this->getCurrentTime(); ?></span>
+	</div>
 </body>
 </html>
