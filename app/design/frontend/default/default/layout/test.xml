@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+
+	<test_index_index>
+        <block name="root" type="test/happy" template="test/index.phtml" translate="label">
+			<label>Happy day view.</label>
+		</block>
+	</test_index_index>
+
+	<test_index_form>
+		<reference name="root">
+			<action method="setTemplate"><template>page/1column.phtml</template></action>
+		</reference>
+
+		<reference name="content">
+			<block type="core/template" name="referrerForm" template="test/form.phtml"/>
+		</reference>
+	</test_index_form>
+</layout>

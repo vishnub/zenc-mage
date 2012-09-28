@@ -1,0 +1,49 @@
+<form id="referrerForm" action="<?php echo $this->getFormAction() ?>" method="POST">
+	<input type="hidden" name="form_key" value="<?php echo $this->getFormKey() ?>">
+	<h2 class="legend"><?php echo $this->__('Referrer Form') ?></h2>
+	<ul class="form-list">
+		<li class="fields">
+			<div class="field">
+				<label for="referrerName" class="required"><em>*</em><?php echo $this->__('Referrer name') ?></label>
+				<div class="input-text">
+					<input id="referrerName" class="input-text required-entry" title="<?php echo $this->__('Referrer name') ?>" name="referrer_name" autofocus>
+				</div>
+			</div>
+			<div class="field">
+				<label for="referrerEmail" class="required"><em>*</em><?php echo $this->__('Referrer email') ?></label>
+				<div class="input-text">
+					<input name="referrer_email" id="referrerEmail" class="input-text required-entry" title="<?php echo $this->__('Referrer email') ?>">
+				</div>
+			</div>
+		</li>
+		<li class="fields">
+			<div class="field">
+				<label for="recipientName" class="required"><em>*</em><?php echo $this->__('Recipient name') ?></label>
+				<div class="input-text">
+					<input name="recipient_name" id="recipientName" class="input-text required-entry" title="<?php echo $this->__('Recipient name') ?>">
+				</div>
+			</div>
+			<div class="field">
+				<label for="recipientEmail" class="required"><em>*</em><?php echo $this->__('Recipient email') ?></label>
+				<div class="input-text">
+					<input  name="recipient_email" id="recipientEmail" class="input-text required-entry" title="<?php echo $this->__('Recipient email') ?>">
+				</div>
+			</div>
+		</li>
+		<li class="fields">
+			<div class="field">
+				<label for="message"><?php echo $this->__('Message') ?></label>
+                <div class="input-box">
+                    <textarea name="message" id="message" title="<?php echo $this->__('Message') ?>" class="required-entry input-text" cols="10" rows="3" style="width: 528px;resize: none"></textarea>
+                </div>
+			</div>
+		</li>
+		<div class="buttons-set">
+			<p class="required"><?php echo $this->__('* Required Fields') ?></p>
+			<button type="submit" title="<?php echo $this->__('Submit') ?>" class="button"><span><span><?php echo $this->__('Submit') ?></span></span></button>
+		</div>
+	</ul>
+</form>
+<script type="text/javascript">
+	new VarienForm('referrerForm', true);
+</script>

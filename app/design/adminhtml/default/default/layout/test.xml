@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+	<test_adminhtml_index_index>
+		<reference name="content">
+			<block name="referrer.list" type="test/adminhtml_list" />
+		</reference>
+	</test_adminhtml_index_index>
+
+	<test_adminhtml_index_edit>
+		<reference name="content">
+			<block name="referrer.edit" type="test/adminhtml_edit"/>
+		</reference>
+	</test_adminhtml_index_edit>
+</layout>
